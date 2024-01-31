@@ -1,0 +1,6 @@
+drink = input()
+if drink == 'c' or drink == 't':
+  refill = int(input())
+  print(refill+1)
+elif drink == 'h':
+  print(1)
