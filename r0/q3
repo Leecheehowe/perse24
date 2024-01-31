@@ -1,0 +1,3 @@
+enword = input()
+decrypt = enword[2:]+enword[:2]
+print(decrypt)
